@@ -10,8 +10,8 @@ int GetValue(string msg)
 int num = GetValue("Введите число: ");
 
 System.Console.WriteLine($"Вывод четных чисел от 0 до {num}:");
-int i = 0;
-while (i < num)
+int i = 2;
+while (i <= num)
 {
     System.Console.Write(i.ToString() + " ");
     i += 2;
